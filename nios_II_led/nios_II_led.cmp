@@ -1,0 +1,7 @@
+	component nios_II_led is
+		port (
+			clk_clk    : in  std_logic                    := 'X'; -- clk
+			led_export : out std_logic_vector(9 downto 0)         -- export
+		);
+	end component nios_II_led;
+
